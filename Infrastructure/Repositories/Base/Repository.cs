@@ -10,7 +10,7 @@ namespace Infrastructure.Repositories.Base
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        protected readonly CompanyContext _companyContext;
+        protected readonly Context _companyContext;
 
         public Task<T> AddAsync(T entity)
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -12,70 +13,26 @@ namespace Domain.Entities
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int SessionId
-        {
-            get;
-            set;
-        }
+        public int SessionId{ get; set; }
 
-        public Status Status
-        {
-            get;
-            set;
-        }
+        public Status Status { get; set; }
 
-        public DateTime From
-        {
-            get;
-            set;
-        }
+        public DateTime From { get; set; }
 
-        public string Symbol
-        {
-            get;
-            set;
-        }
+        public string Symbol { get; set; }
 
-        public double Open
-        {
-            get;
-            set;
-        }
+        public double Open { get; set; }
 
-        public double High
-        {
-            get;
-            set;
-        }
+        public double High { get; set; }
 
-        public double Low
-        {
-            get;
-            set;
-        }
+        public double Low { get; set; }
 
-        public double Close
-        {
-            get;
-            set;
-        }
+        public double Close { get; set; }
 
-        public double Volume
-        {
-            get;
-            set;
-        }
+        public double Volume { get; set; }
 
-        public double AfterHours
-        {
-            get;
-            set;
-        }
+        public double AfterHours { get; set; }
 
-        public double preMarket
-        {
-            get;
-            set;
-        }
+        public double preMarket { get; set; }
     }
 }

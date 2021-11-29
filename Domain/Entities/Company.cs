@@ -12,64 +12,24 @@ namespace Domain.Entities
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int CompanyId
-        {
-            get;
-            set;
-        }
+        public int CompanyId { get; set; }
 
-        public string Symbol
-        {
-            get;
-            set;
-        }
+        public string Symbol { get; set; }
 
-        public string Name
-        {
-            get;
-            set;
-        }
+        public string Name { get; set; }
 
-        public string Country
-        {
-            get;
-            set;
-        }
+        public string Country { get; set; }
 
-        public string Industry
-        {
-            get;
-            set;
-        }
+        public string Industry { get; set; }
 
-        public string Ceo
-        {
-            get;
-            set;
-        }
+        public string Ceo { get; set; }
 
-        public string Sector
-        {
-            get;
-            set;
-        }
+        public string Sector { get; set; }
 
-        public List<string> Tags
-        {
-            get;
-            set;
-        }
+        public List<string> Tags { get; set; }
 
-        public string FirstName
-        {
-            get;
-            set;
-        }
+        public string FirstName { get; set; }
 
-        public string Type
-        {
-            get;
-            set;
-        }
+        public string Type { get; set; }
     }
 }
