@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{1998868B-8FCB-4C71-9E66-858A48E3854F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebIU", "WebIU\WebIU.csproj", "{924DBFA5-11A9-4DFC-BD74-F85DF8827D1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "WebIU\API.csproj", "{924DBFA5-11A9-4DFC-BD74-F85DF8827D1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{BB2F3DC1-DA57-492E-9565-0FC0D4D31C14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{BB2F3DC1-DA57-492E-9565-0FC0D4D31C14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
