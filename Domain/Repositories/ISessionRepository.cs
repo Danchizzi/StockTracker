@@ -1,11 +1,11 @@
-﻿using Domain.Repositories.Base;
+﻿using StockTracker.Domain.Repositories.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Repositories
+namespace StockTracker.Domain.Repositories
 {
     public interface ISessionRepository : IRepository <Entities.Session>
     {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data
 {
-    public class Context : DbContext
+    public class StockTrackerDbContext : DbContext
     {
 
     }

@@ -1,5 +1,5 @@
-﻿using Domain.Entities;
-using Domain.Repositories;
+﻿using StockTracker.Domain.Entities;
+using StockTracker.Domain.Repositories;
 using Infrastructure.Repositories.Base;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Repositories
 {
-    class SessionRepository : Repository<Domain.Entities.Session>, ISessionRepository
+    class SessionRepository : Repository<StockTracker.Domain.Entities.Session>, ISessionRepository
     {
         public Task<IEnumerable<Session>> GetSessionByTicker(string ticker)
         {

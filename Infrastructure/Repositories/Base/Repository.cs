@@ -1,4 +1,4 @@
-﻿using Domain.Repositories.Base;
+﻿using StockTracker.Domain.Repositories.Base;
 using Infrastructure.Data;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ namespace Infrastructure.Repositories.Base
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        protected readonly Context _companyContext;
+        protected readonly StockTrackerDbContext _companyContext;
 
         public Task<T> AddAsync(T entity)
         {
